@@ -1,0 +1,138 @@
+.register-con{
+    width: 70vw;
+    height: 75vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.left-reg-con{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.left-reg-con h1{
+    color: #000;
+    font-size: 45px;
+    font-weight: bold;
+}
+.left-reg-con p{
+    color: #000;
+    font-size: 22px;
+    font-weight: 600;
+}
+.logo{
+    font-size: 105px;
+}
+.register-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: fit-content;
+    background-color: 5491bd;
+    padding-left: 30px;
+    padding: 25px;
+    background-color: rgba(156, 194, 211, 0.4);
+}
+.input-con{
+    display: flex;
+    flex-direction: column;
+    width: 68%;
+    margin-top: 10px;
+}
+.input-con label{
+    font-size: 15px;
+    color: black;
+    font-weight: bold;
+    font-family: Roboto;
+}
+.input-con input{
+    border-width: 0px;
+    outline: 0px;
+    color: #ffffff;
+    font-size: 15px;
+    padding: 3px;
+    border-bottom-width: 2px;
+    border-color: #6662626a;
+    background-color: transparent;
+}
+.input-con input:active{
+    background-color: transparent;
+}
+
+.input-terms-con{
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+.input-terms-con label{
+    font-size: 12px;
+    margin-left: 3px;
+}
+.register-form button{
+    width: 25%;
+    background-color: #fff;
+    padding: 5px;
+    color: #000;
+    border-width: 0px;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-top: 22px;
+    align-self: center;
+}
+.register-form button:hover{
+    background-color: #000;
+    color: #fff;
+}
+@media (max-width:568px){
+    .register-con{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 95vw;
+        height: 100vh;
+    }
+    .left-reg-con{
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        height: 50%;
+    }
+    .register-form{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-left: 10px;
+        padding: 10px;
+        width: 80%;
+        height: fit-content;
+    }
+}
+@media (min-width:758px) and (max-width:1024){
+    .register-con{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        width: 95vw;
+        height: 100vh;
+    }
+    .left-reg-con{
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        height: 50%;
+    }
+    .register-form{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-left: 10px;
+        padding: 10px;
+        width: 80%;
+        height: fit-content;
+    }
+}
